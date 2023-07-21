@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  background-color: #1a1b1b;
+}
+
+.container {
+  min-width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: aqua;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+#amount {
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+#amount p {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+#amount input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid #1a1b1b;
+  outline: none;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+#amount input:focus {
+  border: 1px solid #000;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+#drop-list {
+  /* background-color: blue; */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#drop-list p {
+  font-size: 18px;
+}
+
+#select-box {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin: 5px 0;
+  width: 100px;
+  height: 45px;
+  border: 1px solid #999;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+select {
+  width: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+select::-webkit-scrollbar {
+  width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+select::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
+}
+
+select:focus {
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 25px;
+}
+
+#icon {
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+#erate {
+  /* background-color: red; */
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #675afe;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+}

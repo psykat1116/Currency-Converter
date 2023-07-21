@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Currency Converter</header>
+      <form action="#">
+        <div id="amount">
+          <p>Enter Amount</p>
+          <input type="number" value="1" />
+        </div>
+        <div id="drop-list">
+          <div id="from">
+            <p>From</p>
+            <div id="select-box">
+              <img src="" alt="Flag" />
+              <select></select>
+            </div>
+          </div>
+          <div id="icon"><i class="fa-solid fa-right-left"></i></div>
+          <div id="to">
+            <p>To</p>
+            <div id="select-box">
+              <img src="" alt="Flag" />
+              <select></select>
+            </div>
+          </div>
+        </div>
+        <div id="erate"></div>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+    <script src="country.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
